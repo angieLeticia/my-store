@@ -12,7 +12,11 @@ export class AppComponent {
   age = 18;
   img ='https://www.w3schools.com/howto/img_avatar.png';
   btnDisabled = true;
-
+ register = {
+ name: '',
+ email: '',
+ password: ''
+ }
  person = {
   name : 'Leticia',
   age :18,
@@ -83,5 +87,8 @@ console.log(element.scrollTop);
  deleteName(index: number){
   this.names.splice(index,1)
 
+ }
+ onRegister(){
+  console.log(this.register)
  }
 }

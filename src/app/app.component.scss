@@ -29,6 +29,42 @@
   }
 }
 
+.input-group{
+
+  border-color: black;
+
+  border-radius: 10px;
+  label {
+    display: block;
+    padding: 5px;
+}
+input{
+  border-radius: 5px;
+}
+p {
+  color: red;
+}
+}
+button {
+
+  background-color: rgb(96, 160, 219);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.caja {
+  background-color: aquamarine;
+}
+
+
+
 .line-error{
   height: 0  ;
   border-bottom: 1px solid;
