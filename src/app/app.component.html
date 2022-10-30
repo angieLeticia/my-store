@@ -1,25 +1,25 @@
 
 <form (ngSubmit)="onRegister" #myForm="ngForm">
   <h1>Registrate</h1>
-  <div class="caja-"><div class="input-group">
+  <div class="caja"><div class="input-group">
 
-  <label for="name">Nombre</label>
+  <label class="form-label" for="name">Nombre</label>
   <input type="text" name="name" required="" id="name" [(ngModel)]="register.name">
   <p>Campo requerido</p> </div>
 
   <div class="input-group">
-  <label for="email">Email</label>
+  <label  class="form-label" for="email">Email</label>
   <input  type="text" name="email"  required="" id="email" [(ngModel)]="register.email">
   <p>Campo requerido </p> </div>
 
   <div class="input-group">
-  <label for="password">Password</label>
+  <label class="form-label"  for="password">Password</label>
   <input type="password" name="password" required="" id="password" [(ngModel)]="register.password">
   <p>Campo requerido</p>
 
 </div> </div>
   <button class="button" [disabled]="myForm.invalid" type="submit">Registrar</button>
-
+<button>Accion </button>
 </form>
 
 <h1>NgClass & NgStyle</h1>

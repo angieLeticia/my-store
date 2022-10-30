@@ -29,20 +29,22 @@
   }
 }
 
-.input-group{
 
-  border-color: black;
-
-  border-radius: 10px;
-  label {
-    display: block;
-    padding: 5px;
+.form-label{
+  display: block;
+  padding: 5px;
+  text-align: center;
 }
+
+.input-group{
+  border-radius: 10px;
 input{
   border-radius: 5px;
+  border-color: rgb(218, 105, 130);
 }
 p {
   color: red;
+  text-align: center;
 }
 }
 button {
@@ -54,20 +56,23 @@ button {
   margin: 0 auto;
 }
 
+
+
 form {
   margin: 0 auto;
   width: 300px;
+  background: rgb(238, 189, 200);
+  text-align: center;
+  border-radius: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.caja {
-  background-color: aquamarine;
-}
 
 
 
 .line-error{
   height: 0  ;
-  border-bottom: 1px solid;
+  border-bottom: 5px solid;
   &.invalid {
     border-color: red;
   }
